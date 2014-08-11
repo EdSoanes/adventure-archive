@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace Umbraco_MVC
+namespace BlackDragon.CMS
 {
     public class FilterConfig
     {

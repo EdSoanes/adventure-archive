@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Umbraco_MVC
+namespace BlackDragon.CMS
 {
     public class RouteConfig
     {

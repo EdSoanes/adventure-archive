@@ -18,6 +18,15 @@ namespace BlackDragon.Umbraco
         public string GetWorldJson()
         {
             var node = Node.GetCurrent();
+
+            var world = GetWorld(node);
+
+            var json = JsonConvert.SerializeObject(world);
+            return json;
+        }
+
+        public World GetWorld(INode node)
+        {
             var world = new World();
 
             SetIdentifiableItemFields(node, world);
@@ -47,8 +56,7 @@ namespace BlackDragon.Umbraco
                 }
             }
 
-            var json = JsonConvert.SerializeObject(world);
-            return json;
+            return world;
         }
 
         public string GetAdventureJson()
