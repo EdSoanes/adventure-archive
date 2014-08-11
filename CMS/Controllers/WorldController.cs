@@ -19,11 +19,18 @@ namespace BlackDragon.CMS.Controllers
         [HttpGet]
         public World GetWorldData(string id)
         {
-            var worldNode = GetNodeByAlias(id);
-            var generator = new JsonGenerator();
-            var world = generator.GetWorld(new Node(worldNode.Id));
+            var rootNode = new Node(-1);
+            var worldNodes = rootNode.PublishedChildren().Where(x => x.NodeTypeAlias == "World");
+            var worldNode = worldNodes.FirstOrDefault(x => x.Name.ToLower() == id.ToLower());
+            if (worldNode != null)
+            {
+                var generator = new JsonGenerator();
+                var world = generator.GetWorld(worldNode);
 
-            return world;
+                return world;
+            }
+
+            return null;
         }
 
         public static IPublishedContent GetNodeByAlias(string alias)
