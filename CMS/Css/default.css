@@ -1,0 +1,208 @@
+/* Remove padding and margin */
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.clear
+{
+    clear:both;
+}
+
+.right
+{
+    float: right;
+}
+
+.left
+{
+    float: left;
+}
+
+.show
+{
+	visibility: visible;
+}
+
+.hide
+{
+	visibility: hidden;
+}
+
+@font-face 
+{
+	font-family: "UglyQua";
+	src: url("fonts/UglyQua.ttf") format("truetype");
+}
+
+@font-face 
+{
+	font-family: "VAG-HandWritten";
+	src: url("fonts/VAG-HandWritten.ttf") format("truetype");
+}
+
+h1
+{
+	font-family: "UglyQua";
+    font-size:48px;
+    font-weight:normal;
+    margin: 45px 45px 45px 45px;
+    color: #4e7861;
+}
+
+h2
+{
+	font-family: "UglyQua";
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4e7861;
+}
+
+h3
+{
+	font-family: "UglyQua";
+    color: #4e7861;
+}
+
+h4
+{
+	font-family: "UglyQua";
+    font-size: 1.6em;
+    color: #4e7861;
+}
+
+h5
+{
+	font-family: "UglyQua";
+    font-size: 1.4em;
+    color: #4e7861;
+}
+
+a
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-touch-callout: none;
+}
+
+ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: left;	
+}
+
+html
+{
+	background-color: transparent;
+}
+
+body
+{
+    background-color: transparent;
+    color: #000;
+    margin: 75 auto; 
+    overflow: hidden;
+    text-align: justify;	
+    line-height: 16px;
+    width:  768px;
+}
+
+.page
+{
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.header
+{
+	padding:30px 30px 30px 30px;	
+}
+
+.header-title
+{
+	width:80%;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	padding-left: 45px;
+	color: #999;
+	vertical-align: middle;
+}
+
+p.one-col
+{
+	font: 19px "Georgia", "Times", Tahoma, Verdana, sans-serif;
+	-moz-column-count:1; /* Firefox */
+	-webkit-column-count:1; /* Safari and Chrome */
+	column-count:1;
+	text-align: justify;
+	line-height: 32px;
+	padding-bottom: 20px;
+	padding-top:  20px;
+}
+
+p
+{
+	font: 15.1px "Georgia", "Times", Tahoma, Verdana, sans-serif;
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+	-moz-column-gap: 50px;
+	-webkit-column-gap: 50px;
+	column-gap: 50px;
+	text-align: justify;	
+	line-height: 22px;
+	padding-bottom: 20px;
+	padding-top:  20px;
+}
+
+.footer
+{
+	text-align: right;
+	padding:30px 30px 30px 30px;
+}
+
+.main
+{
+	/*padding:0px 100px 0px 100px;*/
+}
+
+.options
+{
+	padding-top: 45px;
+	padding-bottom: 45px;
+	text-align: right;
+}
+
+.options li
+{
+	display: inline;
+	padding: 10px 10px 10px 10px;
+	margin: 5 5 5 5;
+	border: 1px solid #DDD;
+}
+
+.options li div
+{
+	width: 20px;
+	height: 20px;
+	display: inline;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DDD;	
+}
+
+.content-menu li
+{
+	padding: 10px 10px 10px 10px;
+	margin: 5 5 5 5;
+	border: 1px solid #DDD;
+}
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

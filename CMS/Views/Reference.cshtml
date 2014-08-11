@@ -1,0 +1,95 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="en">
+<head>
+    <title>@Html.Encode(@Model.Content.GetProperty("Title").Value)</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <link rel="stylesheet" type="text/css" href="~/css/archive.common.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/archive.page.css" />
+    <script type='application/javascript' src='~/scripts/jquery-1.8.2.min.js'></script>
+    <script type='application/javascript' src='~/scripts/fastclick.js'></script>
+    <script type="text/javascript">
+        $(function () {
+            FastClick.attach(document.body);
+        });
+    </script>
+</head>
+<body>
+    <div class="page">
+	    <div class="section">
+		    <div class="section-left-col">
+                @if (Model.Content.GetPropertyValue("Image") != null)
+                {
+                    var dynamicMediaItem = Umbraco.Media(Model.Content.GetPropertyValue("Image"));
+                    <div class="section-image-left"><img src="@dynamicMediaItem.umbracoFile" alt="@dynamicMediaItem.Name"/></div>
+                }
+		    </div>
+		    <div class="section-right-col">
+                @{
+                    var title = Model.Content.GetPropertyValue<string>("Title");
+                    var subtitle = Model.Content.GetPropertyValue<string>("Subtitle");
+                    var isFirstPage = Model.Content.GetPropertyValue<bool>("IsFirstPage");
+                    var headerText = Model.Content.GetPropertyValue<string>("HeaderText");
+                    var bodyText = Model.Content.GetPropertyValue<string>("BodyText");
+                    if (!string.IsNullOrWhiteSpace(title))
+                    {
+                        if (isFirstPage)
+                        {
+			                <h1><span></span>@Html.Encode(@Model.Content.GetProperty("Title").Value)</h1>
+                            if (!string.IsNullOrWhiteSpace(subtitle))
+                            {
+        		                <h6>@Html.Encode(@Model.Content.GetProperty("Subtitle").Value)</h6>
+                            }
+                        }
+                        else
+                        {
+			                <h2>@Html.Encode(@Model.Content.GetProperty("Title").Value)</h2>
+                            if (!string.IsNullOrWhiteSpace(subtitle))
+                            {
+        		                <h5>@Html.Encode(@Model.Content.GetProperty("Subtitle").Value)</h5>
+                            }
+                        }
+                    }
+                
+                    if (!string.IsNullOrWhiteSpace(headerText))
+                    {
+			            <div class="section-read-this">
+				            <img src="~/css/images/read-this-bottom-right.png"/>
+				            <p>@Html.Encode(headerText)</p>
+			            </div>
+                    }
+                
+                    if (!string.IsNullOrWhiteSpace(bodyText))
+                    {
+				        @Html.Raw(bodyText)
+                    }
+
+                }
+		    </div>
+		    <div class="clear"/>
+	    </div>
+	    <div class="clear"/>
+        @if (Model.Content.Children.Any(x => x.DocumentTypeAlias == "PageSection"))
+        {
+            var sections = Model.Content.Children.Where(x => x.DocumentTypeAlias == "PageSection").ToList();
+            for (int i = 0; i < sections.Count; i++)
+            {
+                if (i == sections.Count - 1)
+                {
+                    <div class="section-last">@Html.Partial("PageSection", sections[i])</div>
+            <div class="clear"/>
+                }
+                else
+                {
+                    @Html.Partial("PageSection", sections[i])
+                }
+            }
+            <div class="clear"/>
+        }
+    </div>
+    }
+</body>
+</html>

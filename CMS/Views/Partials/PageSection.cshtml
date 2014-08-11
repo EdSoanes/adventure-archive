@@ -1,0 +1,84 @@
+@inherits Umbraco.Web.Mvc.UmbracoViewPage<IPublishedContent>
+@using System.Xml.Linq;
+
+<div class="section">
+	<div class="section-left-col">
+        <ul class="section-links-list">
+        @{
+            var sectionLinks = Model.GetPropertyValue<Umbraco.Core.Dynamics.DynamicXml>("SectionLinks");
+            if (sectionLinks != null && sectionLinks.BaseElement.Elements("link").Where(x => x.Attribute("type").Value == "internal").Any())
+            {
+                foreach (var link in sectionLinks.BaseElement.Elements("link"))
+                {
+                    if (link.Attribute("type").Value == "internal")
+                    {
+                        var refItem = @Umbraco.Content(link.Attribute("link").Value);
+                        var url = @umbraco.library.NiceUrl(int.Parse(link.Attribute("link").Value));
+                        var text = link.Attribute("title").Value;
+                        var thumbnail = refItem.Thumbnail;
+                        <li>
+                            <a href="@url">
+                                <div>
+                                    <div class="section-link-thumbnail">
+                                    @if (thumbnail != null)
+                                    {
+                                        var dynamicMediaItem = Umbraco.Media(thumbnail);
+                                        <img src="@dynamicMediaItem.umbracoFile" alt="@dynamicMediaItem.Name"/>
+                                    }
+                                    </div>
+                                    <div class="section-link-text">
+                                        <span >@text</span>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </li>
+                    }
+                }
+            }
+        }
+        </ul>
+	</div>
+	<div class="section-right-col">
+        @{
+            var title = Model.GetPropertyValue<string>("Title");
+            var titleType = Model.GetPropertyValue<string>("TitleType");
+            var image = Model.GetPropertyValue("Image");
+            var imageAlign = Model.GetPropertyValue<string>("ImageAlignment");
+            var bodyText = Model.GetPropertyValue<string>("BodyText");
+            
+            if (!string.IsNullOrWhiteSpace(title))
+            {
+                if (string.IsNullOrEmpty(titleType) || titleType == "H2")
+                {
+                    <h2>@Html.Encode(title)</h2>
+                }
+                else
+                {
+                    <h3>@Html.Encode(title)</h3>
+                }
+            }
+
+            if (image != null)
+            {
+                var dynamicMediaItem = Umbraco.Media(image);
+                var cls = "section-image-left";
+                if (imageAlign == "Top")
+                {
+                    cls = "section-image-top";
+                }
+                else if (imageAlign == "Right")
+                {
+                    cls = "section-image-right";
+                }
+                <div class="@Html.Raw(cls)"><img src="@dynamicMediaItem.umbracoFile" alt="@dynamicMediaItem.Name"/></div>
+            }
+            
+            if (!string.IsNullOrWhiteSpace(bodyText))
+            {
+                @Html.Raw(bodyText)
+            }
+        }		
+	</div>
+	<div class="clear"/>
+</div>

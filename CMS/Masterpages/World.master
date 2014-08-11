@@ -1,0 +1,15 @@
+<%@ Master Language="C#" AutoEventWireup="true" %>
+
+<%
+    var json = new BlackDragon.Umbraco.JsonGenerator().GetWorldJson();
+    Response.Clear();
+    Response.Cache.SetAllowResponseInBrowserHistory(false);
+    Response.Cache.SetCacheability(HttpCacheability.NoCache);
+    Response.Cache.SetNoStore();
+    Response.Cache.SetExpires(DateTime.Now);
+    Response.Cache.SetValidUntilExpires(true);
+
+    Response.Write(json);
+    Response.ContentType = "application/json";
+    Response.End();
+ %>

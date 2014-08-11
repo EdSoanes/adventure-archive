@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BCDDE278-5EF5-46E2-86E3-866AC6DFFB76}</ProjectGuid>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>BlackDragon.Archive</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>Archive</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <BuildIpa>True</BuildIpa>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AdventureView.cs" />
+    <Compile Include="AdventureViewController.cs" />
+    <Compile Include="AppController.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="MenuView.cs" />
+    <Compile Include="Views\MenuAccessView.cs" />
+    <Compile Include="WorldView.cs" />
+    <Compile Include="WorldViewController.cs" />
+    <None Include="Info.plist" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\TabPopoutView.cs" />
+    <Compile Include="Views\WorldManagementTableView.cs" />
+    <Compile Include="Views\WorldManagementTableViewSource.cs" />
+    <Compile Include="Views\WorldManagementTableViewCell.cs" />
+    <Compile Include="Views\WorldManagementView.cs" />
+    <Compile Include="Views\MenuAccessButton.cs" />
+    <Compile Include="Views\NavigationItem.cs" />
+    <Compile Include="Views\NavigationMenuView.cs" />
+    <Compile Include="Views\NavigationMenuButton.cs" />
+    <Compile Include="Styles.cs" />
+    <Compile Include="Views\WorldManagementTableViewCellLoading.cs" />
+    <Compile Include="Views\ContentView.cs" />
+    <Compile Include="Views\ContentMenuTableView.cs" />
+    <Compile Include="Views\ContentMenuTableViewPageCell.cs" />
+    <Compile Include="Views\ContentMenuTableViewSource.cs" />
+    <Compile Include="Views\TheArchiveButton.cs" />
+    <Compile Include="Views\ArchiveToolbarView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MenuViewController.cs" />
+    <BundleResource Include="Resources\Default.png" />
+    <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="Resources\Images\wld-mgmt-thumb.jpg" />
+    <BundleResource Include="Resources\Images\marker-adventure.png" />
+    <BundleResource Include="Resources\Images\marker-adventure%402x.png" />
+    <BundleResource Include="Resources\Images\marker-encounter.png" />
+    <BundleResource Include="Resources\Images\marker-encounter%402x.png" />
+    <BundleResource Include="Resources\Images\wld-mgmt-thumb%402x.jpg" />
+    <BundleResource Include="Resources\Default%402x.png" />
+    <BundleResource Include="Resources\Images\btn-bookmark.png" />
+    <BundleResource Include="Resources\Images\btn-bookmark%402x.png" />
+    <BundleResource Include="Resources\Images\btn-home.png" />
+    <BundleResource Include="Resources\Images\btn-home%402x.png" />
+    <BundleResource Include="Resources\Images\nav-seperator.png" />
+    <BundleResource Include="Resources\Images\nav-seperator%402x.png" />
+    <BundleResource Include="Resources\Images\wld-mgmt-fav-marker-unchecked.png" />
+    <BundleResource Include="Resources\Images\wld-mgmt-fav-marker-unchecked%402x.png" />
+    <BundleResource Include="Resources\Images\wld-mgmt-fav-marker.png" />
+    <BundleResource Include="Resources\Images\wld-mgmt-fav-marker%402x.png" />
+    <BundleResource Include="Resources\Fonts\LaoMN.ttf" />
+    <BundleResource Include="Resources\Fonts\UglyQua.ttf" />
+    <BundleResource Include="Resources\Fonts\UglyQua-Italic.ttf" />
+    <BundleResource Include="Resources\Fonts\VAG-HandWritten.otf" />
+    <BundleResource Include="Resources\Images\btn-home-highlight.png" />
+    <BundleResource Include="Resources\Images\btn-home-highlight%402x.png" />
+    <BundleResource Include="Resources\Images\btn-favourite-wld-mgmt-off.png" />
+    <BundleResource Include="Resources\Images\btn-favourite-wld-mgmt-off%402x.png" />
+    <BundleResource Include="Resources\Images\btn-favourite-wld-mgmt-on.png" />
+    <BundleResource Include="Resources\Images\btn-favourite-wld-mgmt-on%402x.png" />
+    <BundleResource Include="Resources\Images\overlay-city.png" />
+    <BundleResource Include="Resources\Images\overlay-city%402x.png" />
+    <BundleResource Include="Resources\Images\overlay-dungeon.png" />
+    <BundleResource Include="Resources\Images\overlay-dungeon%402x.png" />
+    <BundleResource Include="Resources\Images\overlay-town.png" />
+    <BundleResource Include="Resources\Images\overlay-town%402x.png" />
+    <BundleResource Include="Resources\Images\the-archive-button.png" />
+    <BundleResource Include="Resources\Images\the-archive-button%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlackDragon.Core\BlackDragon.Core.csproj">
+      <Project>{FDF1EE43-D6FF-49B3-9E90-517008FDC456}</Project>
+      <Name>BlackDragon.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlackDragon.Fx\BlackDragon.Fx.csproj">
+      <Project>{BCEEA670-9ECB-43AC-90D4-64D64F97AE77}</Project>
+      <Name>BlackDragon.Fx</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Newtonsoft.Json\Newtonsoft.Json.MonoTouch.csproj">
+      <Project>{12448CD5-D860-4C1C-8B9F-139F3794B9BC}</Project>
+      <Name>Newtonsoft.Json.MonoTouch</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Images\adv-thumb%402x.jpg" />
+    <BundleResource Include="Resources\Images\adv-thumb.jpg" />
+    <BundleResource Include="Resources\Images\bg-h.jpg" />
+    <BundleResource Include="Resources\Images\bg-v.jpg" />
+    <BundleResource Include="Resources\Images\wld-thumb%402x.jpg" />
+    <BundleResource Include="Resources\Images\wld-thumb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Images\news-thumb%402x.jpg" />
+    <BundleResource Include="Resources\Images\news-thumb.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\Fonts\" />
+  </ItemGroup>
+</Project>

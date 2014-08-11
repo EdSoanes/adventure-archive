@@ -1,0 +1,26 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+
+    var generator = new BlackDragon.Umbraco.JsonGenerator();
+    string json = "";
+    var node = @Model.Content;
+    var jsonGenerator = new BlackDragon.Umbraco.JsonGenerator();
+
+    if (node.DocumentTypeAlias == "World")
+        json = jsonGenerator.GetWorldJson();
+    else if (node.DocumentTypeAlias == "Adventure")
+        json = jsonGenerator.GetAdventureJson();
+
+    Response.Clear();
+    Response.Cache.SetAllowResponseInBrowserHistory(false);
+    Response.Cache.SetCacheability(HttpCacheability.NoCache);
+    Response.Cache.SetNoStore();
+    Response.Cache.SetExpires(DateTime.Now);
+    Response.Cache.SetValidUntilExpires(true);
+
+    Response.Write(json);
+    Response.ContentType = "application/json";
+    Response.End();
+
+}

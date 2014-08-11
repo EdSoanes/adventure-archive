@@ -1,0 +1,10 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "BaseContent.cshtml";
+}
+@section MainSection
+{
+    <h1>@Html.Encode(@Model.Content.GetProperty("Title").Value)</h1>
+    <h3>@Html.Encode(@Model.Content.GetProperty("Subtitle").Value)</h3>
+    <p>@string.Format(@Model.Content.GetProperty("Copyright").Value.ToString(), DateTime.Today.Year)</p>
+}

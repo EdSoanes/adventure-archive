@@ -1,0 +1,32 @@
+<%@ Master Language="C#" MasterPageFile="~/masterpages/BaseContent.master" AutoEventWireup="true" %>
+<%@ Import Namespace="BlackDragon.Umbraco" %>
+
+<asp:Content ContentPlaceHolderID="BodyContentCtrl" runat="server">
+<script runat="server">
+    bool showHeaderText = false;
+    bool showBodyText = false;
+    void Page_Load(object sender, System.EventArgs ea)
+    {
+        try
+        {
+            showHeaderText = !string.IsNullOrEmpty(umbraco.NodeFactory.Node.GetCurrent().Get<string>("headerText"));
+            showBodyText = !string.IsNullOrEmpty(umbraco.NodeFactory.Node.GetCurrent().Get<string>("bodyText"));
+        }
+        catch (System.NullReferenceException) { }
+        catch (System.ArgumentException) { }
+    }
+</script>
+	<h1>
+		<umbraco:Item field="title" htmlEncode="true" stripParagraph="true" convertLineBreaks="true" runat="server" />
+	</h1>
+    
+    <% if (showHeaderText) { %>
+	<p class="one-col">
+		<umbraco:Item field="headerText" htmlEncode="true" stripParagraph="true" convertLineBreaks="true" runat="server" />	
+	</p>
+    <% } %>
+
+    <% if (showBodyText) { %>
+	<umbraco:Item field="bodyText" htmlEncode="false" stripParagraph="false" convertLineBreaks="false" runat="server" />	
+    <% } %>
+</asp:Content>

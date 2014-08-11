@@ -1,0 +1,17 @@
+<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+    <html width="768">
+	    <head runat="server">
+		    <link href="~/css/default.css" rel="stylesheet" type="text/css"/>
+		    <script type="text/javascript" src="~/scripts/default.js"></script>
+		    <!--<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />-->
+		    <title><umbraco:Item field="title" stripParagraph="true" convertLineBreaks="true" runat="server" /></title>
+	    </head>
+	    <body>
+		    <asp:ContentPlaceHolder ID="BodyContentCtrl" runat="server">
+		
+		    </asp:ContentPlaceHolder>
+	    </body>
+    </html>
+</asp:Content>

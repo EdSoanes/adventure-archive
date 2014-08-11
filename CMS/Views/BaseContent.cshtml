@@ -1,0 +1,22 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="en">
+<head>
+    <title>@Html.Encode(@Model.Content.GetProperty("Title").Value)</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <link rel="stylesheet" type="text/css" href="~/css/page.css" />
+    <script type='application/javascript' src='~/scripts/fastclick.js'></script>
+    <script type="text/javascript">
+        $(function () {
+            FastClick.attach(document.body);
+        });
+    </script>
+</head>
+<body>
+    @RenderSection("MainSection", required: true) 
+</body>
+</html>
+

@@ -1,0 +1,2463 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>BlackDragon.Core.Win.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>BlackDragon.Core.Win.dll</orgName>
+    </file>
+    <file>
+      <guid>BlackDragon.Umbraco.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>BlackDragon.Umbraco.dll</orgName>
+    </file>
+    <file>
+      <guid>Newtonsoft.Json.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>Newtonsoft.Json.dll</orgName>
+    </file>
+    <file>
+      <guid>.DS_Store</guid>
+      <orgPath>/mapmedia/moors</orgPath>
+      <orgName>.DS_Store</orgName>
+    </file>
+    <file>
+      <guid>x10y1.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x10y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>x10y2.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x10y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>x10y3.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x10y3.jpg</orgName>
+    </file>
+    <file>
+      <guid>x10y4.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x10y4.jpg</orgName>
+    </file>
+    <file>
+      <guid>x10y5.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x10y5.jpg</orgName>
+    </file>
+    <file>
+      <guid>x10y6.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x10y6.jpg</orgName>
+    </file>
+    <file>
+      <guid>x10y7.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x10y7.jpg</orgName>
+    </file>
+    <file>
+      <guid>x1y1.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x1y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>x1y2.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x1y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>x1y3.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x1y3.jpg</orgName>
+    </file>
+    <file>
+      <guid>x1y4.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x1y4.jpg</orgName>
+    </file>
+    <file>
+      <guid>x1y5.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x1y5.jpg</orgName>
+    </file>
+    <file>
+      <guid>x1y6.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x1y6.jpg</orgName>
+    </file>
+    <file>
+      <guid>x1y7.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x1y7.jpg</orgName>
+    </file>
+    <file>
+      <guid>x2y1.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x2y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>x2y2.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x2y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>x2y3.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x2y3.jpg</orgName>
+    </file>
+    <file>
+      <guid>x2y4.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x2y4.jpg</orgName>
+    </file>
+    <file>
+      <guid>x2y5.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x2y5.jpg</orgName>
+    </file>
+    <file>
+      <guid>x2y6.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x2y6.jpg</orgName>
+    </file>
+    <file>
+      <guid>x2y7.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x2y7.jpg</orgName>
+    </file>
+    <file>
+      <guid>x3y1.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x3y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>x3y2.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x3y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>x3y3.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x3y3.jpg</orgName>
+    </file>
+    <file>
+      <guid>x3y4.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x3y4.jpg</orgName>
+    </file>
+    <file>
+      <guid>x3y5.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x3y5.jpg</orgName>
+    </file>
+    <file>
+      <guid>x3y6.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x3y6.jpg</orgName>
+    </file>
+    <file>
+      <guid>x3y7.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x3y7.jpg</orgName>
+    </file>
+    <file>
+      <guid>x4y1.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x4y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>x4y2.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x4y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>x4y3.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x4y3.jpg</orgName>
+    </file>
+    <file>
+      <guid>x4y4.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x4y4.jpg</orgName>
+    </file>
+    <file>
+      <guid>x4y5.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x4y5.jpg</orgName>
+    </file>
+    <file>
+      <guid>x4y6.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x4y6.jpg</orgName>
+    </file>
+    <file>
+      <guid>x4y7.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x4y7.jpg</orgName>
+    </file>
+    <file>
+      <guid>x5y1.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x5y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>x5y2.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x5y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>x5y3.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x5y3.jpg</orgName>
+    </file>
+    <file>
+      <guid>x5y4.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x5y4.jpg</orgName>
+    </file>
+    <file>
+      <guid>x5y5.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x5y5.jpg</orgName>
+    </file>
+    <file>
+      <guid>x5y6.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x5y6.jpg</orgName>
+    </file>
+    <file>
+      <guid>x5y7.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x5y7.jpg</orgName>
+    </file>
+    <file>
+      <guid>x6y1.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x6y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>x6y2.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x6y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>x6y3.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x6y3.jpg</orgName>
+    </file>
+    <file>
+      <guid>x6y4.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x6y4.jpg</orgName>
+    </file>
+    <file>
+      <guid>x6y5.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x6y5.jpg</orgName>
+    </file>
+    <file>
+      <guid>x6y6.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x6y6.jpg</orgName>
+    </file>
+    <file>
+      <guid>x6y7.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x6y7.jpg</orgName>
+    </file>
+    <file>
+      <guid>x7y1.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x7y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>x7y2.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x7y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>x7y3.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x7y3.jpg</orgName>
+    </file>
+    <file>
+      <guid>x7y4.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x7y4.jpg</orgName>
+    </file>
+    <file>
+      <guid>x7y5.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x7y5.jpg</orgName>
+    </file>
+    <file>
+      <guid>x7y6.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x7y6.jpg</orgName>
+    </file>
+    <file>
+      <guid>x7y7.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x7y7.jpg</orgName>
+    </file>
+    <file>
+      <guid>x8y1.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x8y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>x8y2.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x8y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>x8y3.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x8y3.jpg</orgName>
+    </file>
+    <file>
+      <guid>x8y4.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x8y4.jpg</orgName>
+    </file>
+    <file>
+      <guid>x8y5.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x8y5.jpg</orgName>
+    </file>
+    <file>
+      <guid>x8y6.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x8y6.jpg</orgName>
+    </file>
+    <file>
+      <guid>x8y7.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x8y7.jpg</orgName>
+    </file>
+    <file>
+      <guid>x9y1.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x9y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>x9y2.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x9y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>x9y3.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x9y3.jpg</orgName>
+    </file>
+    <file>
+      <guid>x9y4.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x9y4.jpg</orgName>
+    </file>
+    <file>
+      <guid>x9y5.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x9y5.jpg</orgName>
+    </file>
+    <file>
+      <guid>x9y6.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x9y6.jpg</orgName>
+    </file>
+    <file>
+      <guid>x9y7.jpg</guid>
+      <orgPath>/mapmedia/moors/1000</orgPath>
+      <orgName>x9y7.jpg</orgName>
+    </file>
+    <file>
+      <guid>e4f3ab07-8457-4f51-b3e8-5c0d407164e2_x1y1.jpg</guid>
+      <orgPath>/mapmedia/moors/125</orgPath>
+      <orgName>x1y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>48d065bd-f5a5-4af9-befd-583e2a62dbc9_x2y1.jpg</guid>
+      <orgPath>/mapmedia/moors/125</orgPath>
+      <orgName>x2y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>0140821e-f257-4f1a-abb4-ccccd47b6dc9_x1y1.jpg</guid>
+      <orgPath>/mapmedia/moors/250</orgPath>
+      <orgName>x1y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>9c81e277-4338-4fe4-a0e2-6c1fe98339d3_x1y2.jpg</guid>
+      <orgPath>/mapmedia/moors/250</orgPath>
+      <orgName>x1y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>5a11a2cc-534b-48b9-8870-522c3eb872a4_x2y1.jpg</guid>
+      <orgPath>/mapmedia/moors/250</orgPath>
+      <orgName>x2y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>ae0afd10-bcd8-4ffd-9436-048c34443439_x2y2.jpg</guid>
+      <orgPath>/mapmedia/moors/250</orgPath>
+      <orgName>x2y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>1d632c9b-824d-4365-bb82-c6deaaaad9d5_x3y1.jpg</guid>
+      <orgPath>/mapmedia/moors/250</orgPath>
+      <orgName>x3y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>1e9c129f-c4d2-4567-9c77-3b957e1a536e_x3y2.jpg</guid>
+      <orgPath>/mapmedia/moors/250</orgPath>
+      <orgName>x3y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>944b92ea-e8f4-4e0e-950e-840149a66ad2_x1y1.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x1y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>7bcc30e6-037c-4811-a64a-27dbe03e38fb_x1y2.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x1y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>0684f721-749c-4c4a-9ceb-9f2585baf45d_x1y3.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x1y3.jpg</orgName>
+    </file>
+    <file>
+      <guid>ef69a384-afe8-4c91-a474-587ea5b66f01_x1y4.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x1y4.jpg</orgName>
+    </file>
+    <file>
+      <guid>48d40c2a-7018-460f-9686-333c0a77ac31_x2y1.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x2y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>055cc934-da69-4660-8356-1c1a7a084978_x2y2.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x2y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>6bbe85b0-fa78-4427-8e6d-8cb82e29cadf_x2y3.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x2y3.jpg</orgName>
+    </file>
+    <file>
+      <guid>ea1172cd-54dc-4bac-b567-7292e9896e0f_x2y4.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x2y4.jpg</orgName>
+    </file>
+    <file>
+      <guid>34b89c56-d552-47ed-8861-afbfafda3bfa_x3y1.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x3y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>8ffa75d2-2115-450d-9443-71ea7b2c7255_x3y2.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x3y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>83dfd274-8f44-41df-8b39-386d0e7e6a8a_x3y3.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x3y3.jpg</orgName>
+    </file>
+    <file>
+      <guid>61771ab2-4cd2-49d2-8705-ba733f624c6d_x3y4.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x3y4.jpg</orgName>
+    </file>
+    <file>
+      <guid>8ddee615-5639-4010-943b-3a5360e0601c_x4y1.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x4y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>a0895709-d077-4e0c-8533-945c5623de3a_x4y2.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x4y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>23c40155-ee7e-4bb2-afa9-9cfeae29ccde_x4y3.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x4y3.jpg</orgName>
+    </file>
+    <file>
+      <guid>267a1dd4-5b2c-420f-a5c4-f7f99bc6321d_x4y4.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x4y4.jpg</orgName>
+    </file>
+    <file>
+      <guid>bd00a217-a59f-49bf-ad16-be60f5f45993_x5y1.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x5y1.jpg</orgName>
+    </file>
+    <file>
+      <guid>d7658eaf-cbbe-4d42-a846-8a3878e20672_x5y2.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x5y2.jpg</orgName>
+    </file>
+    <file>
+      <guid>4ee6d27d-d9b7-404f-ad93-d81d482a5c86_x5y3.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x5y3.jpg</orgName>
+    </file>
+    <file>
+      <guid>5a285f6a-2147-46f0-80dd-dbe656a02d51_x5y4.jpg</guid>
+      <orgPath>/mapmedia/moors/500</orgPath>
+      <orgName>x5y4.jpg</orgName>
+    </file>
+    <file>
+      <guid>ad29ea2c-4153-44b3-b022-a3af99945eb2_.DS_Store</guid>
+      <orgPath>/mapmedia/tower-level-1</orgPath>
+      <orgName>.DS_Store</orgName>
+    </file>
+    <file>
+      <guid>1f584d88-662a-4407-b326-dc6e43725da5_.DS_Store</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>.DS_Store</orgName>
+    </file>
+    <file>
+      <guid>x1y1.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x1y1.png</orgName>
+    </file>
+    <file>
+      <guid>x1y2.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x1y2.png</orgName>
+    </file>
+    <file>
+      <guid>x1y3.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x1y3.png</orgName>
+    </file>
+    <file>
+      <guid>x1y4.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x1y4.png</orgName>
+    </file>
+    <file>
+      <guid>x1y5.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x1y5.png</orgName>
+    </file>
+    <file>
+      <guid>x1y6.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x1y6.png</orgName>
+    </file>
+    <file>
+      <guid>x2y1.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x2y1.png</orgName>
+    </file>
+    <file>
+      <guid>x2y2.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x2y2.png</orgName>
+    </file>
+    <file>
+      <guid>x2y3.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x2y3.png</orgName>
+    </file>
+    <file>
+      <guid>x2y4.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x2y4.png</orgName>
+    </file>
+    <file>
+      <guid>x2y5.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x2y5.png</orgName>
+    </file>
+    <file>
+      <guid>x2y6.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x2y6.png</orgName>
+    </file>
+    <file>
+      <guid>x3y1.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x3y1.png</orgName>
+    </file>
+    <file>
+      <guid>x3y2.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x3y2.png</orgName>
+    </file>
+    <file>
+      <guid>x3y3.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x3y3.png</orgName>
+    </file>
+    <file>
+      <guid>x3y4.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x3y4.png</orgName>
+    </file>
+    <file>
+      <guid>x3y5.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x3y5.png</orgName>
+    </file>
+    <file>
+      <guid>x3y6.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x3y6.png</orgName>
+    </file>
+    <file>
+      <guid>x4y1.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x4y1.png</orgName>
+    </file>
+    <file>
+      <guid>x4y2.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x4y2.png</orgName>
+    </file>
+    <file>
+      <guid>x4y3.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x4y3.png</orgName>
+    </file>
+    <file>
+      <guid>x4y4.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x4y4.png</orgName>
+    </file>
+    <file>
+      <guid>x4y5.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x4y5.png</orgName>
+    </file>
+    <file>
+      <guid>x4y6.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x4y6.png</orgName>
+    </file>
+    <file>
+      <guid>x5y1.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x5y1.png</orgName>
+    </file>
+    <file>
+      <guid>x5y2.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x5y2.png</orgName>
+    </file>
+    <file>
+      <guid>x5y3.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x5y3.png</orgName>
+    </file>
+    <file>
+      <guid>x5y4.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x5y4.png</orgName>
+    </file>
+    <file>
+      <guid>x5y5.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x5y5.png</orgName>
+    </file>
+    <file>
+      <guid>x5y6.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x5y6.png</orgName>
+    </file>
+    <file>
+      <guid>x6y1.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x6y1.png</orgName>
+    </file>
+    <file>
+      <guid>x6y2.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x6y2.png</orgName>
+    </file>
+    <file>
+      <guid>x6y3.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x6y3.png</orgName>
+    </file>
+    <file>
+      <guid>x6y4.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x6y4.png</orgName>
+    </file>
+    <file>
+      <guid>x6y5.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x6y5.png</orgName>
+    </file>
+    <file>
+      <guid>x6y6.png</guid>
+      <orgPath>/mapmedia/tower-level-1/1000</orgPath>
+      <orgName>x6y6.png</orgName>
+    </file>
+    <file>
+      <guid>9f27229c-de7b-4802-bc9a-f1059eac96c8_x1y1.png</guid>
+      <orgPath>/mapmedia/tower-level-1/125</orgPath>
+      <orgName>x1y1.png</orgName>
+    </file>
+    <file>
+      <guid>ab3e2a03-d6a6-4e1d-9b0f-9f668f302756_x1y1.png</guid>
+      <orgPath>/mapmedia/tower-level-1/250</orgPath>
+      <orgName>x1y1.png</orgName>
+    </file>
+    <file>
+      <guid>27f56fca-02fc-4283-8738-21a2559a8aa1_x1y2.png</guid>
+      <orgPath>/mapmedia/tower-level-1/250</orgPath>
+      <orgName>x1y2.png</orgName>
+    </file>
+    <file>
+      <guid>486a94cd-8557-4830-b264-6bce347ba230_x2y1.png</guid>
+      <orgPath>/mapmedia/tower-level-1/250</orgPath>
+      <orgName>x2y1.png</orgName>
+    </file>
+    <file>
+      <guid>e217cbdf-8a34-44e2-aa00-330f30ba2d9a_x2y2.png</guid>
+      <orgPath>/mapmedia/tower-level-1/250</orgPath>
+      <orgName>x2y2.png</orgName>
+    </file>
+    <file>
+      <guid>c441f23d-6b78-4536-b7c4-83f2f6fad08c_x1y1.png</guid>
+      <orgPath>/mapmedia/tower-level-1/500</orgPath>
+      <orgName>x1y1.png</orgName>
+    </file>
+    <file>
+      <guid>13acb0e5-bf43-43cf-babb-ffbaad281f17_x1y2.png</guid>
+      <orgPath>/mapmedia/tower-level-1/500</orgPath>
+      <orgName>x1y2.png</orgName>
+    </file>
+    <file>
+      <guid>126cf125-007b-4d4f-a85b-42ffa3c8b520_x1y3.png</guid>
+      <orgPath>/mapmedia/tower-level-1/500</orgPath>
+      <orgName>x1y3.png</orgName>
+    </file>
+    <file>
+      <guid>cdfca5cf-38a2-42c1-8e99-abf41fe9bba6_x2y1.png</guid>
+      <orgPath>/mapmedia/tower-level-1/500</orgPath>
+      <orgName>x2y1.png</orgName>
+    </file>
+    <file>
+      <guid>b0701c5a-eba8-42e6-ab8a-2a20126f7db4_x2y2.png</guid>
+      <orgPath>/mapmedia/tower-level-1/500</orgPath>
+      <orgName>x2y2.png</orgName>
+    </file>
+    <file>
+      <guid>6b1bf409-04f2-472f-aa50-1020a470b9c5_x2y3.png</guid>
+      <orgPath>/mapmedia/tower-level-1/500</orgPath>
+      <orgName>x2y3.png</orgName>
+    </file>
+    <file>
+      <guid>7fb98763-9b58-4e03-b8ab-6412257c0a23_x3y1.png</guid>
+      <orgPath>/mapmedia/tower-level-1/500</orgPath>
+      <orgName>x3y1.png</orgName>
+    </file>
+    <file>
+      <guid>2af2af2b-3d29-489d-9aec-3b843c1ea63f_x3y2.png</guid>
+      <orgPath>/mapmedia/tower-level-1/500</orgPath>
+      <orgName>x3y2.png</orgName>
+    </file>
+    <file>
+      <guid>e5ecf38e-c558-44be-b6ac-60ddd7a60463_x3y3.png</guid>
+      <orgPath>/mapmedia/tower-level-1/500</orgPath>
+      <orgName>x3y3.png</orgName>
+    </file>
+    <file>
+      <guid>0_0.png</guid>
+      <orgPath>/mapmedia/valcia/0</orgPath>
+      <orgName>0_0.png</orgName>
+    </file>
+    <file>
+      <guid>Thumbs.db</guid>
+      <orgPath>/mapmedia/valcia/0</orgPath>
+      <orgName>Thumbs.db</orgName>
+    </file>
+    <file>
+      <guid>0f02405b-c5ae-466f-b8e9-48a127bab982_0_0.png</guid>
+      <orgPath>/mapmedia/valcia/1</orgPath>
+      <orgName>0_0.png</orgName>
+    </file>
+    <file>
+      <guid>09c560b8-9d08-43f1-98b7-2a1bbde7524b_Thumbs.db</guid>
+      <orgPath>/mapmedia/valcia/1</orgPath>
+      <orgName>Thumbs.db</orgName>
+    </file>
+    <file>
+      <guid>58e77cee-8738-421f-91a0-5532e40593ac_0_0.png</guid>
+      <orgPath>/mapmedia/valcia/10</orgPath>
+      <orgName>0_0.png</orgName>
+    </file>
+    <file>
+      <guid>0_1.png</guid>
+      <orgPath>/mapmedia/valcia/10</orgPath>
+      <orgName>0_1.png</orgName>
+    </file>
+    <file>
+      <guid>1_0.png</guid>
+      <orgPath>/mapmedia/valcia/10</orgPath>
+      <orgName>1_0.png</orgName>
+    </file>
+    <file>
+      <guid>1_1.png</guid>
+      <orgPath>/mapmedia/valcia/10</orgPath>
+      <orgName>1_1.png</orgName>
+    </file>
+    <file>
+      <guid>2_0.png</guid>
+      <orgPath>/mapmedia/valcia/10</orgPath>
+      <orgName>2_0.png</orgName>
+    </file>
+    <file>
+      <guid>2_1.png</guid>
+      <orgPath>/mapmedia/valcia/10</orgPath>
+      <orgName>2_1.png</orgName>
+    </file>
+    <file>
+      <guid>c2feec2a-b166-40f0-b132-e5ba7a175283_Thumbs.db</guid>
+      <orgPath>/mapmedia/valcia/10</orgPath>
+      <orgName>Thumbs.db</orgName>
+    </file>
+    <file>
+      <guid>a752a39e-3a89-44bb-b64c-482a09f0f74a_0_0.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>0_0.png</orgName>
+    </file>
+    <file>
+      <guid>2ff3ca67-6a1f-42a7-8f75-926fa8030e47_0_1.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>0_1.png</orgName>
+    </file>
+    <file>
+      <guid>0_2.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>0_2.png</orgName>
+    </file>
+    <file>
+      <guid>0_3.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>0_3.png</orgName>
+    </file>
+    <file>
+      <guid>c8d4c5a3-b3f2-4162-8a12-63c292f1b370_1_0.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>1_0.png</orgName>
+    </file>
+    <file>
+      <guid>55dc10e6-7526-490c-86ab-66e830ce96a0_1_1.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>1_1.png</orgName>
+    </file>
+    <file>
+      <guid>1_2.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>1_2.png</orgName>
+    </file>
+    <file>
+      <guid>1_3.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>1_3.png</orgName>
+    </file>
+    <file>
+      <guid>16a8238a-3059-4720-9330-29b7d7756f4c_2_0.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>2_0.png</orgName>
+    </file>
+    <file>
+      <guid>03595ebf-5dbb-4614-99e3-922612b7c886_2_1.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>2_1.png</orgName>
+    </file>
+    <file>
+      <guid>2_2.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>2_2.png</orgName>
+    </file>
+    <file>
+      <guid>2_3.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>2_3.png</orgName>
+    </file>
+    <file>
+      <guid>3_0.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>3_0.png</orgName>
+    </file>
+    <file>
+      <guid>3_1.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>3_1.png</orgName>
+    </file>
+    <file>
+      <guid>3_2.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>3_2.png</orgName>
+    </file>
+    <file>
+      <guid>3_3.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>3_3.png</orgName>
+    </file>
+    <file>
+      <guid>4_0.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>4_0.png</orgName>
+    </file>
+    <file>
+      <guid>4_1.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>4_1.png</orgName>
+    </file>
+    <file>
+      <guid>4_2.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>4_2.png</orgName>
+    </file>
+    <file>
+      <guid>4_3.png</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>4_3.png</orgName>
+    </file>
+    <file>
+      <guid>8c15a8a9-5f3d-430c-9e97-b00ae7ab9a19_Thumbs.db</guid>
+      <orgPath>/mapmedia/valcia/11</orgPath>
+      <orgName>Thumbs.db</orgName>
+    </file>
+    <file>
+      <guid>891f56ff-a2d3-464b-aad7-f3c3ef9be8f0_0_0.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>0_0.png</orgName>
+    </file>
+    <file>
+      <guid>2aa16777-c39f-48ef-81c5-b3d3285566f9_0_1.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>0_1.png</orgName>
+    </file>
+    <file>
+      <guid>cbf16ea9-2e0f-421f-a8f8-831716518329_0_2.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>0_2.png</orgName>
+    </file>
+    <file>
+      <guid>d3e614b8-3b1b-4f09-a751-7ba52f6a1baa_0_3.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>0_3.png</orgName>
+    </file>
+    <file>
+      <guid>0_4.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>0_4.png</orgName>
+    </file>
+    <file>
+      <guid>0_5.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>0_5.png</orgName>
+    </file>
+    <file>
+      <guid>0_6.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>0_6.png</orgName>
+    </file>
+    <file>
+      <guid>49264a13-99df-476d-a160-bf9c723a086a_1_0.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>1_0.png</orgName>
+    </file>
+    <file>
+      <guid>3da6cd9c-17b9-41af-8f46-53b2bc8ab1c7_1_1.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>1_1.png</orgName>
+    </file>
+    <file>
+      <guid>3a59a91c-4c50-40c3-aa6c-ab03093cc91e_1_2.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>1_2.png</orgName>
+    </file>
+    <file>
+      <guid>c5ede0e0-f124-4d5a-bb7c-26a40373349f_1_3.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>1_3.png</orgName>
+    </file>
+    <file>
+      <guid>1_4.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>1_4.png</orgName>
+    </file>
+    <file>
+      <guid>1_5.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>1_5.png</orgName>
+    </file>
+    <file>
+      <guid>1_6.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>1_6.png</orgName>
+    </file>
+    <file>
+      <guid>3e3192a9-60d2-4820-85ba-919bee2e54ab_2_0.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>2_0.png</orgName>
+    </file>
+    <file>
+      <guid>36b1f220-b687-4f9e-8a20-e8cec979de1b_2_1.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>2_1.png</orgName>
+    </file>
+    <file>
+      <guid>a5838b5a-9d23-4c22-809b-90adfae5b34d_2_2.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>2_2.png</orgName>
+    </file>
+    <file>
+      <guid>25ba0aa1-45f7-4bc4-80ba-b9a6de75cf2d_2_3.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>2_3.png</orgName>
+    </file>
+    <file>
+      <guid>2_4.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>2_4.png</orgName>
+    </file>
+    <file>
+      <guid>2_5.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>2_5.png</orgName>
+    </file>
+    <file>
+      <guid>2_6.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>2_6.png</orgName>
+    </file>
+    <file>
+      <guid>4af7fb42-ca28-4d77-a089-4ed0a7e097f7_3_0.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>3_0.png</orgName>
+    </file>
+    <file>
+      <guid>7447b0ad-6097-4758-95c6-89ed0680e722_3_1.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>3_1.png</orgName>
+    </file>
+    <file>
+      <guid>05bb075d-66cd-400b-aaaa-0df564332011_3_2.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>3_2.png</orgName>
+    </file>
+    <file>
+      <guid>6dc3674c-0320-4d1b-89b4-5acae3ac69f2_3_3.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>3_3.png</orgName>
+    </file>
+    <file>
+      <guid>3_4.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>3_4.png</orgName>
+    </file>
+    <file>
+      <guid>3_5.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>3_5.png</orgName>
+    </file>
+    <file>
+      <guid>3_6.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>3_6.png</orgName>
+    </file>
+    <file>
+      <guid>1800611d-3689-47a9-9504-5a7e202f153a_4_0.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>4_0.png</orgName>
+    </file>
+    <file>
+      <guid>72288e18-9706-445e-aa96-0de3b547fbbe_4_1.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>4_1.png</orgName>
+    </file>
+    <file>
+      <guid>6909aea6-df6a-475a-9dec-1b2995fd391d_4_2.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>4_2.png</orgName>
+    </file>
+    <file>
+      <guid>0725eb5e-d543-46fe-b152-824338358c5f_4_3.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>4_3.png</orgName>
+    </file>
+    <file>
+      <guid>4_4.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>4_4.png</orgName>
+    </file>
+    <file>
+      <guid>4_5.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>4_5.png</orgName>
+    </file>
+    <file>
+      <guid>4_6.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>4_6.png</orgName>
+    </file>
+    <file>
+      <guid>5_0.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>5_0.png</orgName>
+    </file>
+    <file>
+      <guid>5_1.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>5_1.png</orgName>
+    </file>
+    <file>
+      <guid>5_2.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>5_2.png</orgName>
+    </file>
+    <file>
+      <guid>5_3.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>5_3.png</orgName>
+    </file>
+    <file>
+      <guid>5_4.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>5_4.png</orgName>
+    </file>
+    <file>
+      <guid>5_5.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>5_5.png</orgName>
+    </file>
+    <file>
+      <guid>5_6.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>5_6.png</orgName>
+    </file>
+    <file>
+      <guid>6_0.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>6_0.png</orgName>
+    </file>
+    <file>
+      <guid>6_1.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>6_1.png</orgName>
+    </file>
+    <file>
+      <guid>6_2.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>6_2.png</orgName>
+    </file>
+    <file>
+      <guid>6_3.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>6_3.png</orgName>
+    </file>
+    <file>
+      <guid>6_4.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>6_4.png</orgName>
+    </file>
+    <file>
+      <guid>6_5.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>6_5.png</orgName>
+    </file>
+    <file>
+      <guid>6_6.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>6_6.png</orgName>
+    </file>
+    <file>
+      <guid>7_0.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>7_0.png</orgName>
+    </file>
+    <file>
+      <guid>7_1.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>7_1.png</orgName>
+    </file>
+    <file>
+      <guid>7_2.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>7_2.png</orgName>
+    </file>
+    <file>
+      <guid>7_3.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>7_3.png</orgName>
+    </file>
+    <file>
+      <guid>7_4.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>7_4.png</orgName>
+    </file>
+    <file>
+      <guid>7_5.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>7_5.png</orgName>
+    </file>
+    <file>
+      <guid>7_6.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>7_6.png</orgName>
+    </file>
+    <file>
+      <guid>8_0.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>8_0.png</orgName>
+    </file>
+    <file>
+      <guid>8_1.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>8_1.png</orgName>
+    </file>
+    <file>
+      <guid>8_2.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>8_2.png</orgName>
+    </file>
+    <file>
+      <guid>8_3.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>8_3.png</orgName>
+    </file>
+    <file>
+      <guid>8_4.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>8_4.png</orgName>
+    </file>
+    <file>
+      <guid>8_5.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>8_5.png</orgName>
+    </file>
+    <file>
+      <guid>8_6.png</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>8_6.png</orgName>
+    </file>
+    <file>
+      <guid>3701f0ec-bc6e-4f95-8eb6-a99d72a74bd5_Thumbs.db</guid>
+      <orgPath>/mapmedia/valcia/12</orgPath>
+      <orgName>Thumbs.db</orgName>
+    </file>
+    <file>
+      <guid>8c8538ac-e317-4306-893f-fbdc3817e672_0_0.png</guid>
+      <orgPath>/mapmedia/valcia/2</orgPath>
+      <orgName>0_0.png</orgName>
+    </file>
+    <file>
+      <guid>647b30bb-dd27-4c80-8238-575c4fe43e68_Thumbs.db</guid>
+      <orgPath>/mapmedia/valcia/2</orgPath>
+      <orgName>Thumbs.db</orgName>
+    </file>
+    <file>
+      <guid>f98b122e-9df2-4db0-98d0-7b2c609ef46b_0_0.png</guid>
+      <orgPath>/mapmedia/valcia/3</orgPath>
+      <orgName>0_0.png</orgName>
+    </file>
+    <file>
+      <guid>d100441e-e169-4508-8626-4649be6f8f3b_Thumbs.db</guid>
+      <orgPath>/mapmedia/valcia/3</orgPath>
+      <orgName>Thumbs.db</orgName>
+    </file>
+    <file>
+      <guid>96d6bf24-cf2d-4453-b3e5-9c4563fdf544_0_0.png</guid>
+      <orgPath>/mapmedia/valcia/4</orgPath>
+      <orgName>0_0.png</orgName>
+    </file>
+    <file>
+      <guid>2e65ccd5-3590-47f0-9871-16a8e2e9a7a5_Thumbs.db</guid>
+      <orgPath>/mapmedia/valcia/4</orgPath>
+      <orgName>Thumbs.db</orgName>
+    </file>
+    <file>
+      <guid>c0d79fa6-90be-4194-aee3-4ce40b78cb5f_0_0.png</guid>
+      <orgPath>/mapmedia/valcia/5</orgPath>
+      <orgName>0_0.png</orgName>
+    </file>
+    <file>
+      <guid>f67d7d2c-d5ef-4f58-9895-4762ed472b72_Thumbs.db</guid>
+      <orgPath>/mapmedia/valcia/5</orgPath>
+      <orgName>Thumbs.db</orgName>
+    </file>
+    <file>
+      <guid>a37aac36-aeef-4a69-89c2-6d5b8a9da70b_0_0.png</guid>
+      <orgPath>/mapmedia/valcia/6</orgPath>
+      <orgName>0_0.png</orgName>
+    </file>
+    <file>
+      <guid>4447fcce-d026-444b-96ca-7cef02f0c220_0_0.png</guid>
+      <orgPath>/mapmedia/valcia/7</orgPath>
+      <orgName>0_0.png</orgName>
+    </file>
+    <file>
+      <guid>dc4e76e3-30ef-4e74-9b45-f4314babdb6a_0_0.png</guid>
+      <orgPath>/mapmedia/valcia/8</orgPath>
+      <orgName>0_0.png</orgName>
+    </file>
+    <file>
+      <guid>7e37166c-d6f7-41e6-87d5-65e19b3496dc_0_0.png</guid>
+      <orgPath>/mapmedia/valcia/9</orgPath>
+      <orgName>0_0.png</orgName>
+    </file>
+    <file>
+      <guid>3572af52-bf80-4aa4-b1f5-7b29df38d9c1_1_0.png</guid>
+      <orgPath>/mapmedia/valcia/9</orgPath>
+      <orgName>1_0.png</orgName>
+    </file>
+    <file>
+      <guid>be8021b8-97d2-474c-9fa5-0dc9ef8f5c63_Thumbs.db</guid>
+      <orgPath>/mapmedia/valcia/9</orgPath>
+      <orgName>Thumbs.db</orgName>
+    </file>
+    <file>
+      <guid>Manfred Klein License.txt</guid>
+      <orgPath>/css/fonts</orgPath>
+      <orgName>Manfred Klein License.txt</orgName>
+    </file>
+    <file>
+      <guid>UglyQua-Italic.ttf</guid>
+      <orgPath>/css/fonts</orgPath>
+      <orgName>UglyQua-Italic.ttf</orgName>
+    </file>
+    <file>
+      <guid>UglyQua.ttf</guid>
+      <orgPath>/css/fonts</orgPath>
+      <orgName>UglyQua.ttf</orgName>
+    </file>
+    <file>
+      <guid>VAG-HandWritten.otf</guid>
+      <orgPath>/css/fonts</orgPath>
+      <orgName>VAG-HandWritten.otf</orgName>
+    </file>
+    <file>
+      <guid>VAGDesign Font License.txt</guid>
+      <orgPath>/css/fonts</orgPath>
+      <orgName>VAGDesign Font License.txt</orgName>
+    </file>
+    <file>
+      <guid>default.js</guid>
+      <orgPath>/scripts</orgPath>
+      <orgName>default.js</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>Black Dragon Install</name>
+      <version>0.1</version>
+      <license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
+      <url>www.blackdragon.com</url>
+      <requirements>
+        <major>3</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Ed Soanes</name>
+      <website>www.blackdragon.com</website>
+    </author>
+    <readme><![CDATA[]]></readme>
+  </info>
+  <Documents>
+    <DocumentSet importMode="root">
+      <World id="1091" parentID="-1" level="1" creatorID="0" sortOrder="0" createDate="2013-06-06T19:06:07" updateDate="2013-06-09T17:29:27" nodeName="BlackDragon" urlName="blackdragon" path="-1,1091" isDoc="" nodeType="1068" creatorName="admin" writerName="admin" writerID="0" template="1046">
+        <title>The Black Dragon Test World</title>
+        <subtitle>The Black Dragon Games Development world for testing purposes</subtitle>
+        <thumbnail />
+        <copyright>Copyright {0} Black Dragon Games</copyright>
+        <Adventure id="1092" parentID="1091" level="2" creatorID="0" sortOrder="0" createDate="2013-06-06T19:07:19" updateDate="2013-06-09T17:29:27" nodeName="adv1" urlName="adv1" path="-1,1091,1092" isDoc="" nodeType="1081" creatorName="admin" writerName="admin" writerID="0" template="1048">
+          <title>The Evil Tower of Evil</title>
+          <subtitle>A Pathfinder adventure for 4-6 1st level characters </subtitle>
+          <thumbnail />
+          <Chapter id="1093" parentID="1092" level="3" creatorID="0" sortOrder="0" createDate="2013-06-06T19:09:03" updateDate="2013-06-09T17:29:27" nodeName="Introduction" urlName="introduction" path="-1,1091,1092,1093" isDoc="" nodeType="1079" creatorName="admin" writerName="admin" writerID="0" template="1052">
+            <title>Introduction</title>
+            <subtitle>Introduction to The Evil Tower of Evil</subtitle>
+            <thumbnail />
+            <Section id="1096" parentID="1093" level="4" creatorID="0" sortOrder="0" createDate="2013-06-06T19:11:59" updateDate="2013-06-09T17:29:27" nodeName="Background" urlName="background" path="-1,1091,1092,1093,1096" isDoc="" nodeType="1076" creatorName="admin" writerName="admin" writerID="0" template="1054">
+              <title>Background</title>
+              <subtitle>The Background to the Adventure</subtitle>
+              <thumbnail />
+              <headerText><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></headerText>
+              <bodyText><![CDATA[<h2>The Plot Summary</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></bodyText>
+              <mapLink>1103</mapLink>
+            </Section>
+            <Section id="1097" parentID="1093" level="4" creatorID="0" sortOrder="1" createDate="2013-06-06T19:16:00" updateDate="2013-06-09T17:29:27" nodeName="The Story" urlName="the-story" path="-1,1091,1092,1093,1097" isDoc="" nodeType="1076" creatorName="admin" writerName="admin" writerID="0" template="1054">
+              <title>The Story</title>
+              <subtitle>The story of the adventure</subtitle>
+              <thumbnail />
+              <headerText><![CDATA[]]></headerText>
+              <bodyText><![CDATA[<h2>The Story Summary</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></bodyText>
+              <mapLink>1103</mapLink>
+            </Section>
+            <Section id="1102" parentID="1093" level="4" creatorID="0" sortOrder="2" createDate="2013-06-06T19:28:03" updateDate="2013-06-09T17:29:27" nodeName="The Darkening Moors" urlName="the-darkening-moors" path="-1,1091,1092,1093,1102" isDoc="" nodeType="1076" creatorName="admin" writerName="admin" writerID="0" template="1054">
+              <title>The Darkening Moors</title>
+              <subtitle>Outside the tower, the moors spread for miles</subtitle>
+              <thumbnail />
+              <headerText><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."]]></headerText>
+              <bodyText><![CDATA[<h2>The Darkening Moors</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></bodyText>
+              <mapLink>1103</mapLink>
+            </Section>
+          </Chapter>
+          <Chapter id="1094" parentID="1092" level="3" creatorID="0" sortOrder="1" createDate="2013-06-06T19:09:49" updateDate="2013-06-09T17:29:27" nodeName="The Evil Tower of Evil" urlName="the-evil-tower-of-evil" path="-1,1091,1092,1094" isDoc="" nodeType="1079" creatorName="admin" writerName="admin" writerID="0" template="1052">
+            <title>The Evil Tower of Evil</title>
+            <subtitle>The Evil tower where Evil lurks</subtitle>
+            <thumbnail />
+            <Section id="1098" parentID="1094" level="4" creatorID="0" sortOrder="0" createDate="2013-06-06T19:17:41" updateDate="2013-06-09T17:29:28" nodeName="The Entrance Chamber" urlName="the-entrance-chamber" path="-1,1091,1092,1094,1098" isDoc="" nodeType="1076" creatorName="admin" writerName="admin" writerID="0" template="1054">
+              <title>1. The Entrance Chamber</title>
+              <subtitle>Sneaky traps await the adventurers</subtitle>
+              <thumbnail />
+              <headerText><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></headerText>
+              <bodyText><![CDATA[<h2>The Entrance Chamber</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></bodyText>
+              <mapLink>1106</mapLink>
+            </Section>
+            <Section id="1099" parentID="1094" level="4" creatorID="0" sortOrder="1" createDate="2013-06-06T19:19:52" updateDate="2013-06-09T17:29:28" nodeName="The Inner Circle" urlName="the-inner-circle" path="-1,1091,1092,1094,1099" isDoc="" nodeType="1076" creatorName="admin" writerName="admin" writerID="0" template="1054">
+              <title>2. The Inner Circle</title>
+              <subtitle>A terrible demon stalks them in the darkness</subtitle>
+              <thumbnail />
+              <headerText><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></headerText>
+              <bodyText><![CDATA[<h2>The Inner Circle</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></bodyText>
+              <mapLink>1106</mapLink>
+            </Section>
+            <Section id="1100" parentID="1094" level="4" creatorID="0" sortOrder="2" createDate="2013-06-06T19:21:17" updateDate="2013-06-09T17:29:28" nodeName="The Stairs Up" urlName="the-stairs-up" path="-1,1091,1092,1094,1100" isDoc="" nodeType="1076" creatorName="admin" writerName="admin" writerID="0" template="1054">
+              <title>3. The Stairs Up</title>
+              <subtitle>Gloomy spiralling staircase takes the characters higher</subtitle>
+              <thumbnail />
+              <headerText><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."]]></headerText>
+              <bodyText><![CDATA[<h2>The Stairs Up</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></bodyText>
+              <mapLink>1106</mapLink>
+            </Section>
+          </Chapter>
+          <Map id="1103" parentID="1092" level="3" creatorID="0" sortOrder="2" createDate="2013-06-06T19:28:57" updateDate="2013-06-09T17:29:28" nodeName="The Moors" urlName="the-moors" path="-1,1091,1092,1103" isDoc="" nodeType="1070" creatorName="admin" writerName="admin" writerID="0" template="1050">
+            <title>The Darkening Moors</title>
+            <subtitle>A land of dank trouble</subtitle>
+            <thumbnail />
+            <width>2316</width>
+            <height>1636</height>
+            <generatorApp><![CDATA[Tilen]]></generatorApp>
+            <fileExtension><![CDATA[jpg]]></fileExtension>
+            <mapFilesPath>/mapmedia/moors/</mapFilesPath>
+            <Overlay id="1104" parentID="1103" level="4" creatorID="0" sortOrder="0" createDate="2013-06-06T19:30:21" updateDate="2013-06-09T17:29:28" nodeName="Overlay1" urlName="overlay1" path="-1,1091,1092,1103,1104" isDoc="" nodeType="1074" creatorName="admin" writerName="admin" writerID="0" template="1073">
+              <title>The Evil Tower</title>
+              <subtitle>Here stands the brooding tower</subtitle>
+              <thumbnail />
+              <x>100</x>
+              <y>100</y>
+              <overlayNumber>1</overlayNumber>
+              <locked>1</locked>
+              <overlayType><![CDATA[Encounter]]></overlayType>
+              <sectionLink>1097</sectionLink>
+            </Overlay>
+            <Overlay id="1105" parentID="1103" level="4" creatorID="0" sortOrder="1" createDate="2013-06-06T19:31:39" updateDate="2013-06-09T17:29:28" nodeName="Overlay2" urlName="overlay2" path="-1,1091,1092,1103,1105" isDoc="" nodeType="1074" creatorName="admin" writerName="admin" writerID="0" template="1073">
+              <title>The Den of the Wolf</title>
+              <subtitle>A fierce wolf hides in the depths of the cave</subtitle>
+              <thumbnail />
+              <x>500</x>
+              <y>500</y>
+              <overlayNumber>2</overlayNumber>
+              <locked>1</locked>
+              <overlayType><![CDATA[Encounter]]></overlayType>
+              <sectionLink>1102</sectionLink>
+            </Overlay>
+          </Map>
+          <Map id="1106" parentID="1092" level="3" creatorID="0" sortOrder="3" createDate="2013-06-06T19:33:23" updateDate="2013-06-09T17:29:28" nodeName="The Evil Tower. Level 1" urlName="the-evil-tower-level-1" path="-1,1091,1092,1106" isDoc="" nodeType="1070" creatorName="admin" writerName="admin" writerID="0" template="1050">
+            <title>The Evil Tower of Evil. Level 1</title>
+            <subtitle>The first level of the tower</subtitle>
+            <thumbnail />
+            <width>1536</width>
+            <height>1536</height>
+            <generatorApp><![CDATA[Tilen]]></generatorApp>
+            <fileExtension><![CDATA[png]]></fileExtension>
+            <mapFilesPath>/mapmedia/tower-level-1/</mapFilesPath>
+            <Overlay id="1107" parentID="1106" level="4" creatorID="0" sortOrder="0" createDate="2013-06-06T19:33:30" updateDate="2013-06-09T17:29:28" nodeName="Overlay1" urlName="overlay1" path="-1,1091,1092,1106,1107" isDoc="" nodeType="1074" creatorName="admin" writerName="admin" writerID="0" template="1073">
+              <title>1. The Entrance Chamber</title>
+              <subtitle>The shattered and forbidding entrance chamber</subtitle>
+              <thumbnail />
+              <x>100</x>
+              <y>100</y>
+              <overlayNumber>1</overlayNumber>
+              <locked>1</locked>
+              <overlayType><![CDATA[Encounter]]></overlayType>
+              <sectionLink>1098</sectionLink>
+            </Overlay>
+            <Overlay id="1108" parentID="1106" level="4" creatorID="0" sortOrder="1" createDate="2013-06-06T19:34:20" updateDate="2013-06-09T17:29:29" nodeName="Overlay2" urlName="overlay2" path="-1,1091,1092,1106,1108" isDoc="" nodeType="1074" creatorName="admin" writerName="admin" writerID="0" template="1073">
+              <title>2. The Inner Circle</title>
+              <subtitle>At the centre of the tower, a circular chamber awaits</subtitle>
+              <thumbnail />
+              <x>500</x>
+              <y>500</y>
+              <overlayNumber>2</overlayNumber>
+              <locked>1</locked>
+              <overlayType><![CDATA[Encounter]]></overlayType>
+              <sectionLink>1099</sectionLink>
+            </Overlay>
+            <Overlay id="1109" parentID="1106" level="4" creatorID="0" sortOrder="2" createDate="2013-06-06T19:35:12" updateDate="2013-06-09T17:29:29" nodeName="Overlay3" urlName="overlay3" path="-1,1091,1092,1106,1109" isDoc="" nodeType="1074" creatorName="admin" writerName="admin" writerID="0" template="1073">
+              <title>3. The Stairs Up</title>
+              <subtitle>The stone stairs here take the adventurers higher</subtitle>
+              <thumbnail />
+              <x>1000</x>
+              <y>1000</y>
+              <overlayNumber>3</overlayNumber>
+              <locked>1</locked>
+              <overlayType><![CDATA[Encounter]]></overlayType>
+              <sectionLink>1100</sectionLink>
+            </Overlay>
+          </Map>
+        </Adventure>
+        <Map id="1113" parentID="1091" level="2" creatorID="0" sortOrder="1" createDate="2013-06-07T19:48:21" updateDate="2013-06-09T17:29:29" nodeName="Valcia" urlName="valcia" path="-1,1091,1113" isDoc="" nodeType="1070" creatorName="admin" writerName="admin" writerID="0" template="1050">
+          <title>The Land of Valcia</title>
+          <subtitle>A big land with lots of adventure in it</subtitle>
+          <thumbnail />
+          <width>2279</width>
+          <height>1709</height>
+          <generatorApp><![CDATA[Seadragon]]></generatorApp>
+          <fileExtension><![CDATA[png]]></fileExtension>
+          <mapFilesPath>/mapmedia/valcia/</mapFilesPath>
+          <Overlay id="1114" parentID="1113" level="3" creatorID="0" sortOrder="0" createDate="2013-06-07T19:49:29" updateDate="2013-06-09T17:29:29" nodeName="Overlay1" urlName="overlay1" path="-1,1091,1113,1114" isDoc="" nodeType="1074" creatorName="admin" writerName="admin" writerID="0" template="1073">
+            <title>The Evil Towe of Evil</title>
+            <subtitle>The adventure in the Evil Tower of Evil</subtitle>
+            <thumbnail />
+            <x>100</x>
+            <y>100</y>
+            <overlayNumber>1</overlayNumber>
+            <locked>1</locked>
+            <overlayType><![CDATA[Adventure]]></overlayType>
+            <sectionLink>1092</sectionLink>
+          </Overlay>
+        </Map>
+        <Section id="1115" parentID="1091" level="2" creatorID="0" sortOrder="2" createDate="2013-06-07T19:50:39" updateDate="2013-06-09T17:29:29" nodeName="Introduction" urlName="introduction" path="-1,1091,1115" isDoc="" nodeType="1076" creatorName="admin" writerName="admin" writerID="0" template="1054">
+          <title>Introduction to Valcia</title>
+          <subtitle>Introduction to the Land of Valcia</subtitle>
+          <thumbnail />
+          <headerText><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></headerText>
+          <bodyText><![CDATA[]]></bodyText>
+          <mapLink />
+        </Section>
+      </World>
+    </DocumentSet>
+  </Documents>
+  <DocumentTypes>
+    <DocumentType>
+      <Info>
+        <Name>BaseContent</Name>
+        <Alias>BaseContent</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <AllowedTemplates>
+          <Template>BaseContent</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>BaseContent</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Title</Name>
+          <Alias>title</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Title of the item]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Subtitle</Name>
+          <Alias>subtitle</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Subtitle of the item]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Thumbnail</Name>
+          <Alias>thumbnail</Alias>
+          <Type>ead69342-f06d-4253-83ac-28000225583b</Type>
+          <Definition>93929b9a-93a2-4e2a-b239-d99334440a59</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Optional thumbnail image]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>7</Id>
+          <Caption>Content</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Adventure</Name>
+        <Alias>Adventure</Alias>
+        <Icon>book_open.png</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <Master>BaseContent</Master>
+        <AllowedTemplates>
+          <Template>Adventure</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Adventure</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>Map</DocumentType>
+        <DocumentType>Chapter</DocumentType>
+      </Structure>
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>BaseLocatableContent</Name>
+        <Alias>BaseLocatableContent</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <Master>BaseContent</Master>
+        <AllowedTemplates>
+          <Template>BaseLocatableContent</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>BaseLocatableContent</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>X</Name>
+          <Alias>x</Alias>
+          <Type>1413afcb-d19a-4173-8e9a-68288d2a73b8</Type>
+          <Definition>2e6d3631-066e-44b8-aec4-96f09099b2b5</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[X position of the item on a map]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Y</Name>
+          <Alias>y</Alias>
+          <Type>1413afcb-d19a-4173-8e9a-68288d2a73b8</Type>
+          <Definition>2e6d3631-066e-44b8-aec4-96f09099b2b5</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Y position of the item on a map]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Chapter</Name>
+        <Alias>Chapter</Alias>
+        <Icon>doc.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <Master>BaseContent</Master>
+        <AllowedTemplates>
+          <Template>Chapter</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Chapter</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>Section</DocumentType>
+      </Structure>
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Folder</Name>
+        <Alias>Folder</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <AllowedTemplates />
+        <DefaultTemplate>
+        </DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>Section</DocumentType>
+      </Structure>
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Map</Name>
+        <Alias>Map</Alias>
+        <Icon>map.png</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <Master>BaseContent</Master>
+        <AllowedTemplates>
+          <Template>Map</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Map</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>Overlay</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Width</Name>
+          <Alias>width</Alias>
+          <Type>1413afcb-d19a-4173-8e9a-68288d2a73b8</Type>
+          <Definition>2e6d3631-066e-44b8-aec4-96f09099b2b5</Definition>
+          <Tab>Properties</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Width in pixels of the map]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Height</Name>
+          <Alias>height</Alias>
+          <Type>1413afcb-d19a-4173-8e9a-68288d2a73b8</Type>
+          <Definition>2e6d3631-066e-44b8-aec4-96f09099b2b5</Definition>
+          <Tab>Properties</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Height in pixels of the map]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>GeneratorApp</Name>
+          <Alias>generatorApp</Alias>
+          <Type>a74ea9c9-8e18-4d2a-8cf6-73c6206c5da6</Type>
+          <Definition>065e6be5-af56-486d-b038-daf086826e66</Definition>
+          <Tab>Properties</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[App that generated the map tiles]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>FileExtension</Name>
+          <Alias>fileExtension</Alias>
+          <Type>a74ea9c9-8e18-4d2a-8cf6-73c6206c5da6</Type>
+          <Definition>aa952f79-163d-4738-9703-83f4706b8a8a</Definition>
+          <Tab>Properties</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[File extension for map tiles (jpg, png)]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>MapFilesPath</Name>
+          <Alias>mapFilesPath</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Properties</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>10</Id>
+          <Caption>Properties</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Overlay</Name>
+        <Alias>Overlay</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <Master>BaseLocatableContent</Master>
+        <AllowedTemplates>
+          <Template>Overlay</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Overlay</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>OverlayNumber</Name>
+          <Alias>overlayNumber</Alias>
+          <Type>1413afcb-d19a-4173-8e9a-68288d2a73b8</Type>
+          <Definition>2e6d3631-066e-44b8-aec4-96f09099b2b5</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Visible number on the overlay]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>OverlayType</Name>
+          <Alias>overlayType</Alias>
+          <Type>a74ea9c9-8e18-4d2a-8cf6-73c6206c5da6</Type>
+          <Definition>d694d32a-9156-4955-9b51-3385e829ae4d</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Overlay type such as 'Encounter', 'Adventure', etc]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Locked</Name>
+          <Alias>locked</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Whether the overlay can be moved by the user]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>SectionLink</Name>
+          <Alias>sectionLink</Alias>
+          <Type>158aa029-24ed-4948-939e-c3da209e5fba</Type>
+          <Definition>a6857c73-d6e9-480c-b6e6-f15f6ad11125</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[The overlay links to this Section]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>11</Id>
+          <Caption>Content</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Reference</Name>
+        <Alias>Reference</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <Master>BaseContent</Master>
+        <AllowedTemplates />
+        <DefaultTemplate>
+        </DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>PthArtifact</Name>
+        <Alias>PthArtifact</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <Master>Reference</Master>
+        <AllowedTemplates>
+          <Template>PthArtifact</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>PthArtifact</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>PthMonster</Name>
+        <Alias>PthMonster</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <Master>Reference</Master>
+        <AllowedTemplates>
+          <Template>PthMonster</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>PthMonster</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>PthNPC</Name>
+        <Alias>PthNPC</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <Master>Reference</Master>
+        <AllowedTemplates>
+          <Template>PthNPC</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>PthNPC</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Section</Name>
+        <Alias>Section</Alias>
+        <Icon>.sprTreeDocPic</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <Master>BaseContent</Master>
+        <AllowedTemplates>
+          <Template>Section</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Section</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>HeaderText</Name>
+          <Alias>headerText</Alias>
+          <Type>60b7dabf-99cd-41eb-b8e9-4d2e669bbde9</Type>
+          <Definition>1251c96c-185c-4e9b-93f4-b48205573cbd</Definition>
+          <Tab>Properties</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Optional header text for the section]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>BodyText</Name>
+          <Alias>bodyText</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Properties</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Optional body html for the section]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>MapLink</Name>
+          <Alias>mapLink</Alias>
+          <Type>158aa029-24ed-4948-939e-c3da209e5fba</Type>
+          <Definition>a6857c73-d6e9-480c-b6e6-f15f6ad11125</Definition>
+          <Tab>Properties</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>9</Id>
+          <Caption>Properties</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>World</Name>
+        <Alias>World</Alias>
+        <Icon>world.png</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>True</AllowAtRoot>
+        <Master>BaseContent</Master>
+        <AllowedTemplates>
+          <Template>World</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>World</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>Map</DocumentType>
+        <DocumentType>Section</DocumentType>
+        <DocumentType>Adventure</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Copyright</Name>
+          <Alias>copyright</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Copyright statement for the World content]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>12</Id>
+          <Caption>Content</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+  </DocumentTypes>
+  <Templates>
+    <Template>
+      <Name>Adventure</Name>
+      <Alias>Adventure</Alias>
+      <Master>BaseContent</Master>
+      <Design><![CDATA[<%@ Master Language="C#" AutoEventWireup="true" %>
+
+<%
+    var json = new BlackDragon.Umbraco.JsonGenerator().GetAdventureJson();
+    Response.Clear();
+    Response.Cache.SetAllowResponseInBrowserHistory(false);
+    Response.Cache.SetCacheability(HttpCacheability.NoCache);
+    Response.Cache.SetNoStore();
+    Response.Cache.SetExpires(DateTime.Now);
+    Response.Cache.SetValidUntilExpires(true);
+
+    Response.Write(json);
+    Response.ContentType = "application/json";
+    Response.End();
+ %>]]></Design>
+    </Template>
+    <Template>
+      <Name>BaseContent</Name>
+      <Alias>BaseContent</Alias>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+    <html width="768">
+	    <head runat="server">
+		    <link href="~/css/default.css" rel="stylesheet" type="text/css"/>
+		    <script type="text/javascript" src="~/scripts/default.js"></script>
+		    <!--<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />-->
+		    <title><umbraco:Item field="title" stripParagraph="true" convertLineBreaks="true" runat="server" /></title>
+	    </head>
+	    <body>
+		    <asp:ContentPlaceHolder ID="BodyContentCtrl" runat="server">
+		
+		    </asp:ContentPlaceHolder>
+	    </body>
+    </html>
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>BaseLocatableContent</Name>
+      <Alias>BaseLocatableContent</Alias>
+      <Master>BaseContent</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/BaseContent.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Chapter</Name>
+      <Alias>Chapter</Alias>
+      <Master>BaseContent</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/BaseContent.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Map</Name>
+      <Alias>Map</Alias>
+      <Master>BaseContent</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/BaseContent.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Overlay</Name>
+      <Alias>Overlay</Alias>
+      <Master>BaseLocatableContent</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/BaseLocatableContent.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>PthArtifact</Name>
+      <Alias>PthArtifact</Alias>
+      <Master>Reference</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/Reference.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>PthMonster</Name>
+      <Alias>PthMonster</Alias>
+      <Master>Reference</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/Reference.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>PthNPC</Name>
+      <Alias>PthNPC</Alias>
+      <Master>Reference</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/Reference.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Reference</Name>
+      <Alias>Reference</Alias>
+      <Master>BaseContent</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/BaseContent.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Section</Name>
+      <Alias>Section</Alias>
+      <Master>BaseContent</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/BaseContent.master" AutoEventWireup="true" %>
+<%@ Import Namespace="BlackDragon.Umbraco" %>
+
+<asp:Content ContentPlaceHolderID="BodyContentCtrl" runat="server">
+<script runat="server">
+    bool showHeaderText = false;
+    bool showBodyText = false;
+    void Page_Load(object sender, System.EventArgs ea)
+    {
+        try
+        {
+            showHeaderText = !string.IsNullOrEmpty(umbraco.NodeFactory.Node.GetCurrent().Get<string>("headerText"));
+            showBodyText = !string.IsNullOrEmpty(umbraco.NodeFactory.Node.GetCurrent().Get<string>("bodyText"));
+        }
+        catch (System.NullReferenceException) { }
+        catch (System.ArgumentException) { }
+    }
+</script>
+	<h1>
+		<umbraco:Item field="title" htmlEncode="true" stripParagraph="true" convertLineBreaks="true" runat="server" />
+	</h1>
+    
+    <% if (showHeaderText) { %>
+	<p class="one-col">
+		<umbraco:Item field="headerText" htmlEncode="true" stripParagraph="true" convertLineBreaks="true" runat="server" />	
+	</p>
+    <% } %>
+
+    <% if (showBodyText) { %>
+	<umbraco:Item field="bodyText" htmlEncode="false" stripParagraph="false" convertLineBreaks="false" runat="server" />	
+    <% } %>
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>World</Name>
+      <Alias>World</Alias>
+      <Master>BaseContent</Master>
+      <Design><![CDATA[<%@ Master Language="C#" AutoEventWireup="true" %>
+
+<%
+    var json = new BlackDragon.Umbraco.JsonGenerator().GetWorldJson();
+    Response.Clear();
+    Response.Cache.SetAllowResponseInBrowserHistory(false);
+    Response.Cache.SetCacheability(HttpCacheability.NoCache);
+    Response.Cache.SetNoStore();
+    Response.Cache.SetExpires(DateTime.Now);
+    Response.Cache.SetValidUntilExpires(true);
+
+    Response.Write(json);
+    Response.ContentType = "application/json";
+    Response.End();
+ %>]]></Design>
+    </Template>
+  </Templates>
+  <Stylesheets>
+    <Stylesheet>
+      <Name>default</Name>
+      <FileName>
+      </FileName>
+      <Content><![CDATA[/* Remove padding and margin */
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.clear
+{
+    clear:both;
+}
+
+.right
+{
+    float: right;
+}
+
+.left
+{
+    float: left;
+}
+
+.show
+{
+	visibility: visible;
+}
+
+.hide
+{
+	visibility: hidden;
+}
+
+@font-face 
+{
+	font-family: "UglyQua";
+	src: url("fonts/UglyQua.ttf") format("truetype");
+}
+
+@font-face 
+{
+	font-family: "VAG-HandWritten";
+	src: url("fonts/VAG-HandWritten.ttf") format("truetype");
+}
+
+h1
+{
+	font-family: "UglyQua";
+    font-size:48px;
+    font-weight:normal;
+    margin: 45px 45px 45px 45px;
+    color: #4e7861;
+}
+
+h2
+{
+	font-family: "UglyQua";
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4e7861;
+}
+
+h3
+{
+	font-family: "UglyQua";
+    color: #4e7861;
+}
+
+h4
+{
+	font-family: "UglyQua";
+    font-size: 1.6em;
+    color: #4e7861;
+}
+
+h5
+{
+	font-family: "UglyQua";
+    font-size: 1.4em;
+    color: #4e7861;
+}
+
+a
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-touch-callout: none;
+}
+
+ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: left;	
+}
+
+html
+{
+	background-color: transparent;
+}
+
+body
+{
+    background-color: transparent;
+    color: #000;
+    margin: 75 auto; 
+    overflow: hidden;
+    text-align: justify;	
+    line-height: 16px;
+    width:  768px;
+}
+
+.page
+{
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.header
+{
+	padding:30px 30px 30px 30px;	
+}
+
+.header-title
+{
+	width:80%;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	padding-left: 45px;
+	color: #999;
+	vertical-align: middle;
+}
+
+p.one-col
+{
+	font: 19px "Georgia", "Times", Tahoma, Verdana, sans-serif;
+	-moz-column-count:1; /* Firefox */
+	-webkit-column-count:1; /* Safari and Chrome */
+	column-count:1;
+	text-align: justify;
+	line-height: 32px;
+	padding-bottom: 20px;
+	padding-top:  20px;
+}
+
+p
+{
+	font: 15.1px "Georgia", "Times", Tahoma, Verdana, sans-serif;
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+	-moz-column-gap: 50px;
+	-webkit-column-gap: 50px;
+	column-gap: 50px;
+	text-align: justify;	
+	line-height: 22px;
+	padding-bottom: 20px;
+	padding-top:  20px;
+}
+
+.footer
+{
+	text-align: right;
+	padding:30px 30px 30px 30px;
+}
+
+.main
+{
+	/*padding:0px 100px 0px 100px;*/
+}
+
+.options
+{
+	padding-top: 45px;
+	padding-bottom: 45px;
+	text-align: right;
+}
+
+.options li
+{
+	display: inline;
+	padding: 10px 10px 10px 10px;
+	margin: 5 5 5 5;
+	border: 1px solid #DDD;
+}
+
+.options li div
+{
+	width: 20px;
+	height: 20px;
+	display: inline;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DDD;	
+}
+
+.content-menu li
+{
+	padding: 10px 10px 10px 10px;
+	margin: 5 5 5 5;
+	border: 1px solid #DDD;
+}
+
+]]></Content>
+    </Stylesheet>
+  </Stylesheets>
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes>
+    <DataType Name="Generation App Dropdown" Id="a74ea9c9-8e18-4d2a-8cf6-73c6206c5da6" Definition="065e6be5-af56-486d-b038-daf086826e66" DatabaseType="Ntext">
+      <PreValues>
+        <PreValue Id="5" Value="Seadragon" />
+        <PreValue Id="6" Value="Tilen" />
+      </PreValues>
+    </DataType>
+    <DataType Name="Map File Extension Dropdown" Id="a74ea9c9-8e18-4d2a-8cf6-73c6206c5da6" Definition="aa952f79-163d-4738-9703-83f4706b8a8a" DatabaseType="Ntext">
+      <PreValues>
+        <PreValue Id="9" Value="png" />
+        <PreValue Id="10" Value="jpg" />
+      </PreValues>
+    </DataType>
+    <DataType Name="Overlay Type Dropdown" Id="a74ea9c9-8e18-4d2a-8cf6-73c6206c5da6" Definition="d694d32a-9156-4955-9b51-3385e829ae4d" DatabaseType="Ntext">
+      <PreValues>
+        <PreValue Id="7" Value="Encounter" />
+        <PreValue Id="8" Value="Adventure" />
+      </PreValues>
+    </DataType>
+  </DataTypes>
+</umbPackage>
