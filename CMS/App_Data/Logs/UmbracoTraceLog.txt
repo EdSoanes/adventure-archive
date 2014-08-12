@@ -3627,3 +3627,5 @@ System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous 
 2014-08-12 11:26:52,423 [8] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
 2014-08-12 11:26:55,737 [8] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of umbraco.interfaces.ITree
 2014-08-12 11:26:55,737 [8] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 0ms)
+2014-08-12 11:38:45,409 [8] INFO  umbraco.BusinessLogic.Log - [Thread 29] Log scrubbed.  Removed all items older than 2014-06-13 11:38:45
+2014-08-12 11:38:45,411 [8] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 29] Application shutdown. Reason: BinDirChangeOrDirectoryRename

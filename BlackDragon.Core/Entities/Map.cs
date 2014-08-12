@@ -41,16 +41,16 @@ namespace BlackDragon.Core.Entities
 			set;
 		}
 		
-        private string _mapFilesPath = "";
-        public string MapFilesPath
+        private string _dziFilePath = "";
+        public string DziFilePath
         {
-            get { return _mapFilesPath; }
+            get { return _dziFilePath; }
             set
             {        
                 if (value.ToLower().EndsWith(".aspx"))
-                    _mapFilesPath = value.Substring(0, value.Length - 5);
+                    _dziFilePath = value.Substring(0, value.Length - 5);
                 else
-                    _mapFilesPath = value;
+                    _dziFilePath = value;
             }
         }
 
@@ -79,7 +79,7 @@ namespace BlackDragon.Core.Entities
             else
                 scaleFolder = 9;
 
-            var mapPath = MapFilesPath.CombineUrl(String.Format("{0}/{1}_{2}.{3}", scaleFolder, col, row, FileExtension));
+            var mapPath = DziFilePath.CombineUrl(String.Format("{0}/{1}_{2}.{3}", scaleFolder, col, row, FileExtension));
             return mapPath;
         }
 
@@ -88,7 +88,7 @@ namespace BlackDragon.Core.Entities
             var zoomFactor = Settings.GetZoomFactor(scale) * 1000;
 			if (GeneratorApp == "Tilen")
 			{
-				var mapPath = MapFilesPath.CombineUrl(String.Format("{0}/x{1}y{2}.{3}", zoomFactor, col + 1, row + 1, FileExtension));
+				var mapPath = DziFilePath.CombineUrl(String.Format("{0}/x{1}y{2}.{3}", zoomFactor, col + 1, row + 1, FileExtension));
 				return mapPath;
 			}
 			else if (GeneratorApp == "Seadragon")
@@ -104,7 +104,7 @@ namespace BlackDragon.Core.Entities
 				else
 					scaleFolder = 9;
 
-				var mapPath = MapFilesPath.CombineUrl(String.Format("{0}/{1}_{2}.{3}", scaleFolder, col, row, FileExtension));
+				var mapPath = DziFilePath.CombineUrl(String.Format("{0}/{1}_{2}.{3}", scaleFolder, col, row, FileExtension));
 				return mapPath;
 			}
 

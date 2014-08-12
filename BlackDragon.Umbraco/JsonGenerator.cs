@@ -128,7 +128,7 @@ namespace BlackDragon.Umbraco
             map.GeneratorApp = node.Get<string>("generatorApp");
             map.Height = node.Get<int>("height");
             map.Width = node.Get<int>("width");
-            map.MapFilesPath = GetWebSiteDomainName().CombineUrl(node.Get<string>("mapFilesPath"));
+            map.DziFilePath = GetWebSiteDomainName().CombineUrl(node.Get<string>("mapFilesPath"));
 
             var mapMarkerNodes = node.PublishedChildren().Where(x => x.NodeTypeAlias == "MapMarker").ToArray(); 
             for (int i = 0; i < mapMarkerNodes.Count(); i++)
