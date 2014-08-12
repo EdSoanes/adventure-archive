@@ -40,18 +40,21 @@
     <OutputPath>bin\Release.iOS\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="businesslogic">
-      <HintPath>..\Umbraco MVC\bin\businesslogic.dll</HintPath>
-    </Reference>
-    <Reference Include="cms">
-      <HintPath>..\Umbraco MVC\bin\cms.dll</HintPath>
-    </Reference>
-    <Reference Include="interfaces">
-      <HintPath>..\Umbraco MVC\bin\interfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+    <Reference Include="businesslogic, Version=1.0.5261.28129, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Umbraco MVC\bin\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\CMS\bin\businesslogic.dll</HintPath>
+    </Reference>
+    <Reference Include="cms, Version=1.0.5261.28129, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CMS\bin\cms.dll</HintPath>
+    </Reference>
+    <Reference Include="interfaces, Version=1.0.5261.28126, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CMS\bin\interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CMS\bin\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -61,8 +64,9 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="umbraco">
-      <HintPath>..\Umbraco MVC\bin\umbraco.dll</HintPath>
+    <Reference Include="umbraco, Version=1.0.5261.28133, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CMS\bin\umbraco.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -77,7 +81,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="config\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
